@@ -3,7 +3,7 @@ yarn install
 
 <!-- and then -->
 
-yarn dev 2022:demo1
+yarn dev 2022:demo1           
 yarn dev 2022:demo2
 
 <!-- or -->
