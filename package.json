@@ -1,0 +1,17 @@
+{
+  "name": "vite_vue2.7_typescript4",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ./viteCli/vite.cli.js -m development -e beta --bp ",
+    "build": "node ./viteCli/vite.cli.js -m production -e prod --bp "
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "colors": "^1.4.0",
+    "commander": "^9.4.0",
+    "terser": "^5.14.2",
+    "typescript": "^4.7.4",
+    "vite": "^3.2.4"
+  }
+}

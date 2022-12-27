@@ -1,0 +1,24 @@
+﻿# 设置git提交忽视文件
+.DS_Store
+node_modules
+dist
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+*.psd
+.history
+.stylelintrc.json
+.prettierrc.js
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+/.cache
+
+# 屏蔽框架测试项目
+COMMON/zzzz

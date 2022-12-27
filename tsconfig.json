@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "checkJs": false,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "jsx": "preserve",
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    // global paths
+    "paths": {
+      "UTIL/*": ["assets/utils/*"],
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "sourceMap": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "esnext",
+    "typeRoots": ["node_modules/@types", "typings"],
+    "useDefineForClassFields": true
+  },
+  "extensions": [
+    ".vue"
+  ],
+  "include": ["assets/**/*", "global/*", "ACT/**/*","typings/*"],
+  "exclude": [
+    "node_modules/*"
+  ]
+}
